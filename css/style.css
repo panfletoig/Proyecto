@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/12/todo-conectado-caen-servidores-amazon-fallan-disney-plus-tinder-league-legends-coinbase-alexa-otros-2554321.jpg?tf=3840x");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.logo{
+    min-width: 5cm;
+    max-width: 10cm;
+}
+.title{
+    color: #e3edd2; 
+    position: absolute;
+    margin-top: 0;
+    top: 35px;
+}
+ul{
+    position: absolute;
+    top: 45px;
+    right: 45px;
+}
+ul, li{
+    display: inline-block;
+}
+li{
+    padding: 0 10px;
+}
+.section-quienes-somos {
+    margin: 1cm 0;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    margin: 0 2cm;
+    margin-top: 10px;
+    text-align: center;
+}
+.info-section-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info-sevicios
+{
+    max-width: 15cm;
+    text-align: justify;
+}
+#info-img{
+    max-width: 565px;
+    margin-top: 2cm;
+}
+
+#section-options{
+    display: flex;
+    justify-content: center;
+    /*background: #0f132e;*/
+}
+.href-section-container{
+    margin: 1cm;
+    text-align: center;
+    width: 20%;
+    /*border-style: solid;
+    border-width: 5px;
+    background-color: #536d88;
+    border-color: #19274e;*/
+}
+
+.href-section-img{
+    margin: 1cm 0;
+    min-width: 126px;
+    width: 70%;
+    /*border-color: #19274e;
+    border-style: solid;
+    border-width: 5px;*/
+}
+.href-section-title{
+    padding: 0 0 1cm 0;
+}
+.info-section-container{
+    margin-top: 1cm;
+}
+#section-img-empresa{
+    width: 565px;
+    margin-top: 10px;
+}
+.section-contacto{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a091c;
+    width: 100%;
+    align-items: center;
+}
+#icons{
+    color: aliceblue;
+    margin: 0 auto;
+}
+svg{
+    margin: 10px;
+}
+#section-contacto-siguenos{
+    text-align: center;
+}
+#section-contacto-form{
+    margin: 0 auto;
+}
+form{
+    display: grid;
+}
+#section-contacto-form-title{
+    margin-top: 1cm;
+}
+input{
+    margin: 10px 0;
+}
+#enviar{
+    margin-bottom: 1cm;
+    text-decoration: none;
+    align-self: left;
+    width: 4cm;
+}
+textarea{
+    margin: 10px 0;
+    height: 4cm;
+    width: 16cm;
+}
+footer{
+    margin-top: auto;
+    background-color: #85aab0;
+}
+#copyright{
+    text-align: center;
+}
